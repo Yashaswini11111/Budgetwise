@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [20/Feb/2026:19:18:29 +0530] "GET /Budgetwise/WebContent/signup.jsp HTTP/1.1" 200 2086
+0:0:0:0:0:0:0:1 - - [20/Feb/2026:19:18:40 +0530] "POST /Budgetwise/RegisterServlet HTTP/1.1" 500 3393

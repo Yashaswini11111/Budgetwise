@@ -1,0 +1,51 @@
+20-Feb-2026 19:17:08.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.52
+20-Feb-2026 19:17:08.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2026 19:29:07 UTC
+20-Feb-2026 19:17:08.514 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.52.0
+20-Feb-2026 19:17:08.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+20-Feb-2026 19:17:08.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Feb-2026 19:17:08.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Feb-2026 19:17:08.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\RAJENDRA\Downloads\jdk-21_windows-x64_bin\jdk-21.0.8
+20-Feb-2026 19:17:08.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.8+12-LTS-250
+20-Feb-2026 19:17:08.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Feb-2026 19:17:08.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52
+20-Feb-2026 19:17:08.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52
+20-Feb-2026 19:17:08.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52\conf\logging.properties
+20-Feb-2026 19:17:08.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Feb-2026 19:17:08.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Feb-2026 19:17:08.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Feb-2026 19:17:08.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+20-Feb-2026 19:17:08.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Feb-2026 19:17:08.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+20-Feb-2026 19:17:08.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Feb-2026 19:17:08.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Feb-2026 19:17:08.568 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Feb-2026 19:17:08.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Feb-2026 19:17:08.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52
+20-Feb-2026 19:17:08.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52
+20-Feb-2026 19:17:08.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52\temp
+20-Feb-2026 19:17:08.584 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.12] using APR version [1.7.6].
+20-Feb-2026 19:17:08.615 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.4 30 Sep 2025]
+20-Feb-2026 19:17:09.433 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Feb-2026 19:17:09.529 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1745] milliseconds
+20-Feb-2026 19:17:09.704 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Feb-2026 19:17:09.706 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.52]
+20-Feb-2026 19:17:09.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52\webapps\Budgetwise]
+20-Feb-2026 19:17:11.534 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Feb-2026 19:17:11.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52\webapps\Budgetwise] has finished in [2,013] ms
+20-Feb-2026 19:17:11.768 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52\webapps\docs]
+20-Feb-2026 19:17:12.910 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Feb-2026 19:17:12.925 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52\webapps\docs] has finished in [1,156] ms
+20-Feb-2026 19:17:12.926 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52\webapps\examples]
+20-Feb-2026 19:17:14.672 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Feb-2026 19:17:14.812 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52\webapps\examples] has finished in [1,885] ms
+20-Feb-2026 19:17:14.813 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52\webapps\host-manager]
+20-Feb-2026 19:17:15.553 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Feb-2026 19:17:15.582 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52\webapps\host-manager] has finished in [768] ms
+20-Feb-2026 19:17:15.587 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52\webapps\manager]
+20-Feb-2026 19:17:16.406 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Feb-2026 19:17:16.416 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52\webapps\manager] has finished in [830] ms
+20-Feb-2026 19:17:16.419 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52\webapps\ROOT]
+20-Feb-2026 19:17:17.052 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Feb-2026 19:17:17.063 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\RAJENDRA\Downloads\apache-tomcat-10.1.52-windows-x64\apache-tomcat-10.1.52\webapps\ROOT] has finished in [643] ms
+20-Feb-2026 19:17:17.080 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Feb-2026 19:17:17.190 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7654] milliseconds

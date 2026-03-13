@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [27/Feb/2026:19:11:40 +0530] "GET /Budgetwise/signup.jsp HTTP/1.1" 200 2086
+0:0:0:0:0:0:0:1 - - [27/Feb/2026:19:11:56 +0530] "POST /Budgetwise/RegisterServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [27/Feb/2026:19:12:01 +0530] "GET /Budgetwise/ProfilePage.jsp HTTP/1.1" 200 1743
+0:0:0:0:0:0:0:1 - - [27/Feb/2026:19:12:26 +0530] "POST /Budgetwise/SaveProfileServlet HTTP/1.1" 404 785
+0:0:0:0:0:0:0:1 - - [27/Feb/2026:19:16:01 +0530] "GET /Budgetwise/signup.jsp HTTP/1.1" 200 2086
+0:0:0:0:0:0:0:1 - - [27/Feb/2026:19:16:01 +0530] "GET /favicon.ico HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Feb/2026:19:16:14 +0530] "POST /Budgetwise/RegisterServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [27/Feb/2026:19:16:14 +0530] "GET /Budgetwise/ProfilePage.jsp HTTP/1.1" 200 1743
+0:0:0:0:0:0:0:1 - - [27/Feb/2026:19:16:34 +0530] "POST /Budgetwise/SaveProfileServlet HTTP/1.1" 404 785

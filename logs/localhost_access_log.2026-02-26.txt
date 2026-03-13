@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [26/Feb/2026:19:10:23 +0530] "GET /Budgetwise/signup.jsp HTTP/1.1" 200 2086
+0:0:0:0:0:0:0:1 - - [26/Feb/2026:19:10:38 +0530] "POST /Budgetwise/RegisterServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Feb/2026:19:10:38 +0530] "GET /Budgetwise/ProfilePage.jsp HTTP/1.1" 200 1742
+0:0:0:0:0:0:0:1 - - [26/Feb/2026:19:10:55 +0530] "POST /Budgetwise/Dashboard.jsp HTTP/1.1" 200 1789
+0:0:0:0:0:0:0:1 - - [26/Feb/2026:19:10:58 +0530] "GET /Budgetwise/Dash_profile.jsp HTTP/1.1" 200 910
+0:0:0:0:0:0:0:1 - - [26/Feb/2026:19:12:52 +0530] "GET /Budgetwise/ProfilePage.jsp HTTP/1.1" 200 1742
+0:0:0:0:0:0:0:1 - - [26/Feb/2026:19:19:07 +0530] "GET /Budgetwise/signup.jsp HTTP/1.1" 200 2086
+0:0:0:0:0:0:0:1 - - [26/Feb/2026:19:19:18 +0530] "POST /Budgetwise/RegisterServlet HTTP/1.1" 200 23
+0:0:0:0:0:0:0:1 - - [26/Feb/2026:19:19:34 +0530] "POST /Budgetwise/RegisterServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Feb/2026:19:19:39 +0530] "GET /Budgetwise/ProfilePage.jsp HTTP/1.1" 200 1743
+0:0:0:0:0:0:0:1 - - [26/Feb/2026:19:20:06 +0530] "POST /Budgetwise/SaveProfileServlet HTTP/1.1" 404 785

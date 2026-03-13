@@ -1,0 +1,318 @@
+23-Feb-2026 22:43:37.984 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Feb-2026 22:43:37.984 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Feb-2026 22:43:38.001 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7455dacb')
+23-Feb-2026 22:44:32.911 INFO [http-nio-8080-exec-3] org.apache.catalina.core.ApplicationContext.log Marking servlet [RegisterServlet] as unavailable
+23-Feb-2026 22:44:32.913 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Allocate exception for servlet [RegisterServlet]
+	java.lang.ClassNotFoundException: RegisterServlet
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1377)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:487)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:469)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:143)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:761)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:578)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:113)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:654)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+23-Feb-2026 22:46:19.141 SEVERE [http-nio-8080-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Budgetwise] threw exception [org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [67] in the jsp file: [/WebContent/signin.jsp]
+Syntax error on token "=", @ expected
+64: </head>
+65: <body>
+66: <div class="container">
+67: <form action="<% = request.getContextPath() %>/LoginServlet" method="post">
+68: <h2>Sign-In</h2>
+69: <input type="email" name="email" placeholder="Email" required>
+70: <br>
+
+
+An error occurred at line: [67] in the jsp file: [/WebContent/signin.jsp]
+Syntax error, type annotations are illegal here
+64: </head>
+65: <body>
+66: <div class="container">
+67: <form action="<% = request.getContextPath() %>/LoginServlet" method="post">
+68: <h2>Sign-In</h2>
+69: <input type="email" name="email" placeholder="Email" required>
+70: <br>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [67] in the jsp file: [/WebContent/signin.jsp]
+Syntax error on token "=", @ expected
+64: </head>
+65: <body>
+66: <div class="container">
+67: <form action="<% = request.getContextPath() %>/LoginServlet" method="post">
+68: <h2>Sign-In</h2>
+69: <input type="email" name="email" placeholder="Email" required>
+70: <br>
+
+
+An error occurred at line: [67] in the jsp file: [/WebContent/signin.jsp]
+Syntax error, type annotations are illegal here
+64: </head>
+65: <body>
+66: <div class="container">
+67: <form action="<% = request.getContextPath() %>/LoginServlet" method="post">
+68: <h2>Sign-In</h2>
+69: <input type="email" name="email" placeholder="Email" required>
+70: <br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:70)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:189)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:553)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:339)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:325)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:586)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:350)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:301)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:654)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+23-Feb-2026 22:48:15.134 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Budgetwise] threw exception [org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [67] in the jsp file: [/WebContent/signin.jsp]
+Syntax error on token "=", @ expected
+64: </head>
+65: <body>
+66: <div class="container">
+67: <form action="<% = request.getContextPath() %>/LoginServlet" method="post">
+68: <h2>Sign-In</h2>
+69: <input type="email" name="email" placeholder="Email" required>
+70: <br>
+
+
+An error occurred at line: [67] in the jsp file: [/WebContent/signin.jsp]
+Syntax error, type annotations are illegal here
+64: </head>
+65: <body>
+66: <div class="container">
+67: <form action="<% = request.getContextPath() %>/LoginServlet" method="post">
+68: <h2>Sign-In</h2>
+69: <input type="email" name="email" placeholder="Email" required>
+70: <br>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [67] in the jsp file: [/WebContent/signin.jsp]
+Syntax error on token "=", @ expected
+64: </head>
+65: <body>
+66: <div class="container">
+67: <form action="<% = request.getContextPath() %>/LoginServlet" method="post">
+68: <h2>Sign-In</h2>
+69: <input type="email" name="email" placeholder="Email" required>
+70: <br>
+
+
+An error occurred at line: [67] in the jsp file: [/WebContent/signin.jsp]
+Syntax error, type annotations are illegal here
+64: </head>
+65: <body>
+66: <div class="container">
+67: <form action="<% = request.getContextPath() %>/LoginServlet" method="post">
+68: <h2>Sign-In</h2>
+69: <input type="email" name="email" placeholder="Email" required>
+70: <br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:70)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:189)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:553)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:339)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:325)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:586)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:350)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:301)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:654)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+23-Feb-2026 23:08:39.322 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Feb-2026 23:08:39.322 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Feb-2026 23:08:39.326 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@577bf0aa')
+23-Feb-2026 23:09:32.852 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Marking servlet [RegisterServlet] as unavailable
+23-Feb-2026 23:09:32.852 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Allocate exception for servlet [RegisterServlet]
+	java.lang.UnsupportedClassVersionError: RegisterServlet has been compiled by a more recent version of the Java Runtime (class file version 68.0), this version of the Java Runtime only recognizes class file versions up to 65.0 (unable to load class [RegisterServlet])
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2363)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2224)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1338)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:487)
+		at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:469)
+		at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:143)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:761)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:578)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:113)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:654)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
+23-Feb-2026 23:12:58.247 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Feb-2026 23:12:58.247 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Feb-2026 23:12:58.247 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7455dacb')
+23-Feb-2026 23:24:51.888 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+23-Feb-2026 23:24:51.888 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+23-Feb-2026 23:24:51.907 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@1c30cb85')
+23-Feb-2026 23:25:55.564 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Budgetwise] threw exception [org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [67] in the jsp file: [/signin.jsp]
+Syntax error on token "=", @ expected
+64: </head>
+65: <body>
+66: <div class="container">
+67: <form action="<% = request.getContextPath() %>/LoginServlet" method="post">
+68: <h2>Sign-In</h2>
+69: <input type="email" name="email" placeholder="Email" required>
+70: <br>
+
+
+An error occurred at line: [67] in the jsp file: [/signin.jsp]
+Syntax error, type annotations are illegal here
+64: </head>
+65: <body>
+66: <div class="container">
+67: <form action="<% = request.getContextPath() %>/LoginServlet" method="post">
+68: <h2>Sign-In</h2>
+69: <input type="email" name="email" placeholder="Email" required>
+70: <br>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [67] in the jsp file: [/signin.jsp]
+Syntax error on token "=", @ expected
+64: </head>
+65: <body>
+66: <div class="container">
+67: <form action="<% = request.getContextPath() %>/LoginServlet" method="post">
+68: <h2>Sign-In</h2>
+69: <input type="email" name="email" placeholder="Email" required>
+70: <br>
+
+
+An error occurred at line: [67] in the jsp file: [/signin.jsp]
+Syntax error, type annotations are illegal here
+64: </head>
+65: <body>
+66: <div class="container">
+67: <form action="<% = request.getContextPath() %>/LoginServlet" method="post">
+68: <h2>Sign-In</h2>
+69: <input type="email" name="email" placeholder="Email" required>
+70: <br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:70)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:189)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:553)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:367)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:339)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:325)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:586)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:350)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:301)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:654)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1583)
