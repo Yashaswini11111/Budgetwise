@@ -127,7 +127,6 @@ function drawCharts() {
     var chartPie = new google.visualization.PieChart(document.getElementById('piechart'));
     chartPie.draw(dataPie, optionsPie);
 
-
     var dataBar = google.visualization.arrayToDataTable([
         ['Month', 'Expenses', { role: 'style' }],
         ['Jan', <%=jan%>, '#ff6384'],
@@ -154,10 +153,28 @@ function drawCharts() {
 
     var chartBar = new google.visualization.ColumnChart(document.getElementById('barchart'));
     chartBar.draw(dataBar, optionsBar);
+
+    var dataIncomeExpense = google.visualization.arrayToDataTable([
+        ['Type', 'Amount'],
+        ['Income', <%=income%>],
+        ['Expenses', <%=totalExpense%>]
+    ]);
+
+    var optionsIncomeExpense = {
+        title: 'Income vs Expenses',
+        chartArea: {width:'70%', height:'70%'},
+        hAxis: {title: 'Type'},
+        vAxis: {title: 'Amount (₹)'},
+        colors: ['#36a2eb']
+    };
+
+    var chartIncomeExpense = new google.visualization.ColumnChart(document.getElementById('incomeExpenseChart'));
+    chartIncomeExpense.draw(dataIncomeExpense, optionsIncomeExpense);
 }
 </script>
 
 <style>
+/* NO CHANGES */
 body{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
@@ -218,7 +235,7 @@ body{
     transform:translateY(-5px);
     background:#e6f2ff;
 }
-#piechart, #barchart{
+#piechart, #barchart, #incomeExpenseChart{
     width: 100%;
     max-width: 500px;
     height: 300px;
@@ -250,6 +267,8 @@ body{
 <a href="ProfilePage.jsp">Profile</a>
 <a href="ManageExpense.jsp">Manage Expenses</a>
 <a href="TrackExpenses.jsp">Track Expenses</a>
+<a href="ExportCSV.jsp">Export CSV</a>
+<a href="SmartSuggestions.jsp">Smart Suggestions</a>
 </div>
 
 <div class="main">
@@ -288,10 +307,15 @@ background: linear-gradient(90deg,#ff6384,#36a2eb,#ffcd56,#4bc0c0);">
 <a href="ManageExpense.jsp"><div class="card">Add Expense</div></a>
 <a href="ViewExpense.jsp"><div class="card">View Expenses</div></a>
 <a href="ProfilePage.jsp"><div class="card">Update Profile</div></a>
+<a href="ExportCSV.jsp"><div class="card">Export CSV</div></a>
+<a href="SmartSuggestions.jsp"><div class="card">Smart Suggestions</div></a>
 </div>
 
 <div id="piechart"></div>
 <div id="barchart"></div>
+<div id="incomeExpenseChart"></div>
+
+
 
 </div>
 </div>
